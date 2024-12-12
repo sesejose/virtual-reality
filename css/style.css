@@ -261,7 +261,7 @@ figure img {
   grid-template-columns: 1fr;
   justify-items: center;
   gap: 0;
-  margin: 0;
+  margin: 40px 0 80px 0;
   padding: 0 20px;
 }
 .method-l,
@@ -289,7 +289,7 @@ figure img {
   grid-template-columns: 1fr;
   justify-items: center;
   padding: 0 20px;
-  margin: 0;
+  margin: 40px 0 80px 0;
 }
 
 .txt-history-left,
@@ -339,6 +339,7 @@ ul {
   justify-content: center;
   padding-bottom: 40px;
   width: 60px;
+  margin: 0 auto;
 }
 
 /* Arrow */
@@ -421,7 +422,7 @@ ul {
   .grid-methods {
     grid-template-columns: repeat(2, 1fr);
     gap: 80px;
-    margin: 0 40px;
+    margin: 40px 0 80px 0;
     align-items: start;
   }
   .method-l,
@@ -455,6 +456,10 @@ ul {
   .txt-challenges-right {
     grid-column: 6 / 10;
     justify-items: left;
+  }
+
+  .go-to-top {
+    grid-column: 1/10;
   }
 
   footer {
