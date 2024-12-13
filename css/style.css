@@ -76,9 +76,10 @@ nav {
   display: grid;
   grid-template-columns: 20% 1fr;
   align-items: center;
-  height: 60px;
+  height: 90px;
   position: relative;
   border-bottom: 1px solid white;
+  align-items: center;
 }
 nav .nav-inside {
   display: none;
@@ -87,8 +88,9 @@ nav .nav-inside {
 .logo {
   grid-column: 1;
   z-index: 5;
-  max-width: 60px;
+  max-width: 90px;
   fill: #f72585;
+  width: 80%;
   padding: 20px;
 }
 
@@ -99,6 +101,7 @@ nav .nav-inside {
   justify-items: end;
   z-index: 5;
   cursor: pointer;
+  padding: 20px;
 }
 
 .hamburger i {
@@ -120,14 +123,15 @@ nav ol {
   margin: 0;
   padding: 0;
   /* background-color: #f9faf6; */
-  background-color: rgb(249, 250, 246, 0.65);
+  background-color: rgb(249, 250, 246, 1);
   margin: 0 auto;
   max-width: 1280px;
   width: 100%;
   height: 100vh;
-  position: relative;
-  top: -78px;
-  z-index: 4;
+  /* position: relative; */
+  top: 0;
+  z-index: 2;
+  position: absolute;
 }
 
 nav ol li {
@@ -165,7 +169,7 @@ nav ol li a {
   justify-content: center;
   align-content: center;
   position: relative;
-  top: -60px;
+  top: -90px;
 }
 
 .hero--index {
@@ -345,7 +349,7 @@ ul {
   display: flex;
   justify-content: center;
   padding-bottom: 40px;
-  width: 60px;
+  width: 90px;
   margin: 0 auto;
 }
 
@@ -527,12 +531,12 @@ ul {
   }
 
   .logo {
-    padding: 20px;
+    /* padding: 20px; */
     max-width: 90px;
   }
 
   nav ol {
-    height: 70px;
+    height: 110px;
     grid-column: 2 / 3;
     top: 0;
     flex-flow: row;
