@@ -197,13 +197,14 @@ nav ol li a {
   grid-template-rows: auto auto; /* h1 and h3 stacked */
   align-content: center;
   justify-items: center;
-  text-align: center;
+  text-align: left;
   padding: 0 20px 40px;
 }
 
 .hero .txt-hero h1,
 .hero .txt-hero h3 {
   margin: 0;
+  width: 100%;
 }
 
 /* Typography */
@@ -295,7 +296,7 @@ figure img {
 .grid-technology-section,
 .grid-applications-section,
 .grid-challenges-section {
-  text-align: center;
+  text-align: left;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
