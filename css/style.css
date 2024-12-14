@@ -268,7 +268,7 @@ figure img {
 
 /* Utility Grids for sections */
 .grid-methods {
-  text-align: center;
+  text-align: left;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
